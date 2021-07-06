@@ -1,0 +1,21 @@
+{
+  // 保存时格式化
+  "editor.formatOnSave": true,
+
+  /*
+    prettier 格式化
+
+    生效:
+     - .js .ts 文件
+
+    配置:
+    prettier.semi 是否存在结尾分号
+    prettier.singleQuote 是否使用单引号
+    prettier.trailingComma 是否存在函数尾逗号
+  */
+  "prettier.printWidth": 250,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.useEditorConfig": false
+}
